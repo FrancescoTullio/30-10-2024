@@ -10,7 +10,7 @@ const teachers = [
 
 // 0. Per ogni insegnante stampa in console la frase:
 // [Nome insengante] è l'insegnante in posizione [i]
-for(i = 0; i < 7; i++){
+for (i = 0; i < 7; i++) {
   console.log(teachers[i]);
 }
 
@@ -53,4 +53,14 @@ console.log(teachersString);
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+
+if (teachers.length > 0) {
+  const isTeachersEmpty = true;
+
+  console.log(isTeachersEmpty);
+} else {
+  const isTeachersEmpty = false;
+
+  console.log(isTeachersEmpty);
+}
+
